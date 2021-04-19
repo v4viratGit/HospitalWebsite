@@ -1,0 +1,60 @@
+/* ----Global Styles---- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---Home page--- */
+.hospital-name h1{
+    text-align: center;
+    width: 100%;
+    background-color:black;
+    color: white;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.banner{
+    background-image: url(../images/hospital-banner.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    margin: 10px auto 10px auto;
+    justify-content: space-around;
+}
+.add-card{
+    text-align: center;
+    border: 1px solid black;
+}
+.add-card a{
+    text-decoration: none;
+    color: black;
+}
+.add-card h3{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px 5px 2px 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer h5{
+    margin: 0;
+    padding: 5px;;
+}
